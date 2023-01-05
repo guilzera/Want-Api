@@ -1,7 +1,6 @@
 ﻿namespace IWantApi.Domain.Products;
 
-public class Category
+public class Category : Entity
 {
-    public Guid Id { get; set; }
     public string Name { get; set; }
 }
